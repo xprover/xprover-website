@@ -1,46 +1,40 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./styles.module.css";
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "Introduction",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        <p>
+          DeFi verification platform for SCs tokens and coins using leanprover
+          and blockchain DAO build on top of multiversx.
+        </p>
+        <p>
+          We're building a platform to check that digital currencies and other
+          financial assets are trustworthy and secure. This platform will use
+          advanced math and blockchain technology to make sure that everything
+          is working correctly and nobody can cheat the system. In other words,
+          the startup is focused on building a platform that verifies the
+          security and reliability of decentralized finance (DeFi) assets, such
+          as smart contracts, tokens, and coins. The platform will use the Lean
+          theorem prover and blockchain technology to ensure that the assets are
+          functioning as intended and that there are no vulnerabilities or
+          loopholes that could be exploited by bad actors. The use of a
+          decentralized autonomous organization (DAO) built on top of MultiversX
+          blockchain further emphasizes the focus on security and trust in the
+          platform.
+        </p>
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ title, description }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
+    <div className={clsx("col col--md")}>
+      <div className="text--center"></div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
