@@ -41,7 +41,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:'https://github.com/xprover/xprover-website/blob/main/',
+          editUrl: 'https://github.com/xprover/xprover-website/blob/main/',
         },
         blog: {
           showReadingTime: true,
@@ -68,6 +68,7 @@ const config = {
           src: "img/logo.svg",
         },
         items: [
+          { to: "/whitepaper", label: "Whitepaper", position: "left" },
           {
             type: "doc",
             docId: "intro",
@@ -77,6 +78,11 @@ const config = {
           { to: "/blog", label: "Blog", position: "left" },
           { to: "/resources", label: "Resources", position: "left" },
           { to: "/contact", label: "Contact", position: "left" },
+          {
+            href: "https://demo.xprover.com",
+            label: "Try app",
+            position: "right",
+          },
           {
             href: "https://github.com/xprover",
             label: "GitHub",

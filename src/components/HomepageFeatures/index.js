@@ -1,6 +1,7 @@
 import React from "react";
 import clsx from "clsx";
 import styles from "./styles.module.css";
+import Link from "@docusaurus/Link";
 
 const FeatureList = [
   {
@@ -8,8 +9,11 @@ const FeatureList = [
     description: (
       <>
         <p>
-          DeFi verification platform for SCs tokens and coins using leanprover
-          and blockchain DAO build on top of multiversx.
+          DeFi verification platform for SCs tokens and coins using
+          <Link to="https://leanprover.github.io"> leanprover </Link> and
+          blockchain DAO build on top of
+          <Link to="https://multiversx.com"> MultiversX </Link>
+          blockchain.
         </p>
         <p>
           We're building a platform to check that digital currencies and other

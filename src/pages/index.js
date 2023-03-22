@@ -17,8 +17,8 @@ function HomepageHeader() {
         <h2>If you can't prove it, you can't trust it</h2>
 
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="#">
-            Learn more
+          <Link className="button button--secondary button--lg" to="https://demo.xprover.com">
+            Try our Proof Of Concept app ...
           </Link>
         </div>
       </div>
